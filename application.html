@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+</head>
+<style>
+    .main {
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 100%;
+
+
+    }
+
+    .topImage {
+        padding-left: 10px;
+        padding-right: 10px;
+        justify-content: center;
+        width: 80vw;
+        height: 30vh;
+        position: relative;
+        background-image: url('images/Rectangle\ 25.svg');
+        background-size: cover;
+    }
+
+    .bgImage {
+        padding-left: 10px;
+        padding-right: 10px;
+        justify-content: center;
+        width: 80vw;
+        height: 130vh;
+        position: relative;
+        background-image: url('images/Artboard\ –\ 2.svg');
+        background-size: cover;
+    }
+
+    .section2 {
+        padding: 50px;
+    }
+
+    .main .section2 h1 {
+        font-size: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #73777B;
+        text-shadow: -3px -3px black;
+    }
+
+    .main .section2 p {
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+      color: #73777B;
+    }
+
+    strong {
+        color: black;
+    }
+
+    footer {
+        background-color: #CFD2CF;
+        width: auto;
+        height: 50px;
+        padding: 40px;
+        text-align: center;
+        font-size: x-small;
+
+    }
+
+
+   
+
+
+    @media (max-width :780px) {
+        .main{
+            margin-left: 50px;
+            /* margin-right: 10px; */
+        }
+        .main .section2 h1 {
+            font-size: 50px;
+            /* color: aqua; */
+        }
+
+        .main .section2 p {
+            font-size: 22px;
+        }
+
+        .main .topImage {
+            width: 600px;
+            height: 170px;
+        }
+
+        .main .bgImage {
+            width: 600px;
+            height: 1000px;
+        }
+
+        footer {
+            height: 25px;
+            width: 540px;
+        }
+    }
+    @media(min-width : 0px) and (max-width : 480px) {
+        .main{
+            margin: 0%;
+        }
+        .main .topImage {
+            width: 410px;
+            height: 165px;
+        }
+
+        .main .bgImage {
+            width: 410px;
+            height: 1000px;
+        }
+        .main .section2 h1 {
+            font-size: 35px;
+            /* color: #000; */
+            text-shadow: none;
+        }
+
+        .main .section2 p {
+            font-size: 22px;
+            color: #73777B;
+        }
+
+        
+
+        footer {
+            height: 35px;
+            width: 350px;
+        }
+    }
+</style>
+
+<body>
+    <div class="main">
+
+        <div class="topImage">
+            <!-- <img src="images/Rectangle 25.svg" > -->
+        </div>
+
+        <div class="bgImage">
+            <div class="section2">
+                <h1><b>WELLCOME</b></h1>
+                <p>thank you for choosing to open an account with us!</p><br>
+                <p>Dear applicant </p>
+                <p>You are only a few minutes away from joining Easy E-Money </p>
+                <p>We just need you to vist the link we send via SMS to the mobile provided in your application and
+                    download the ID pal mobile app. Please, upload your selfie and a photo ID to verify your
+                    identity.
+                </p><br>
+                <p>If you have any question or require any support, please Contact us on our emial</p>
+                <p><strong>hello@easyemoney.co.uk</strong> or on our Live Chat through website</p><br>
+
+                <p>We look forward to having you onboard,</p>
+                <p>Easy E-Money team</p>
+            </div>
+        </div>
+        <footer>Easy E-Money is a trading style of Easy Cash Card Limited
+            (Company number : 10623187) and regulated by FCA (FRN:032703)
+            the account is provided by modulr FS Limited, regulated by the Financial Conduct
+            Authority for issuance of electronic money (FRN:900573)
+        </footer>
+    </div>
+</body>
+
+</html>
